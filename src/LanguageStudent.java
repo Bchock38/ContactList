@@ -7,10 +7,12 @@ public class LanguageStudent extends Student{
         this.language = language;
     }
 
+    //return language student is learning
     public String getLanguage() {
         return language;
     }
 
+    //create to string
     public String toString() {
         return super.toString() + " Learning " + language;
     }

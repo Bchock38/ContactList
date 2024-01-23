@@ -15,14 +15,17 @@ public class Student extends Person {
 
     // Methods
 
+    //return grade
     public int getGrade() {
         return grade;
     }
 
+    //set grade
     public void setGrade(int grade) {
         this.grade = grade;
     }
 
+    //create to string
     public String toString() {
         return super.toString() + " Grade: " + grade;
     }

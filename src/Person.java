@@ -9,19 +9,21 @@ public class Person {
         this.phoneNumber = phoneNumber;
     }
 
+    //return first name
     public String getFirstName(){
         return firstName;
     }
-
+    // return last name
     public String getLastName() {
         return lastName;
     }
-
+    //return phone number
     public String getPhoneNumber() {
         return phoneNumber;
     }
 
 
+    //create to string
     public String toString() {
         return firstName + " " + lastName + " - # " + phoneNumber;
     }
